@@ -1,0 +1,75 @@
+.information_container{
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-bottom: 1px solid skyblue;
+}
+
+.image1{
+
+    width: 100%;
+    height: 80vh;
+    background:url("https://i.ibb.co/f9HnTQn/Bg-breakfast.png");
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.rectangle{
+
+    width: 242px;
+    height: 54px;
+    opacity: 0.8;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 1000px;
+    top: 530px;
+}
+
+.image_gallery{
+
+    width: 220px;
+    height: 28px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: navy;
+    text-decoration-line: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .rectangle{
+        width: 242px;
+        height: 54px;
+        opacity: 0.8;
+        border-radius: 3px;
+        background-color: #ffffff;
+        position: relative;
+        left: 190px;
+        top: 430px;
+    }
+    .information_container{
+
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 50px;
+        border-bottom: 1px solid skyblue;
+    }
+    .image1{
+
+        width: 100%;
+        height: 80vh;
+        background:url("https://i.ibb.co/f9HnTQn/Bg-breakfast.png");
+        background-size: cover;
+        object-fit: cover;
+    
+    }
+}
